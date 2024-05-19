@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: fixed;
+    width: 100%;
+    min-height: 170vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    overflow: hidden;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: -4px;
+    width: 100%;
+    height: 100%;
+    background: #ff0015;
+    clip-path: circle(46% at bottom right);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: absolute;
+    max-width: 130px;  
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+
+
+.container {
+    max-width: 2000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 50px;
+    position: fixed;
+    top: 130px;
+    right: -180px;
+    width: 1500px;
+}
+h1 {
+    color: #ffffff; /* Cor do título para vermelho */
+}
+
+h2 {
+    color: #ff0000; /* Cor dos subtítulos para cinza escuro */
+}
+
+p {
+    line-height: 1.6;
+    color: #ffffff
+}
+
+li {
+    color: #ffffff
+
+}

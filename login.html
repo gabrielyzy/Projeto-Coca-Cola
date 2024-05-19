@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <style>
+        body {
+            font-size: 2.0em; 
+            zoom: 0.600; 
+        }
+    </style>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end; 
+            align-items: center; 
+            background-color: #f0f0f0;
+        }
+        .content {
+            text-align: center;
+            margin-bottom: 20px; 
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="cocacola_logo.png">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+        <div class="logo"></div>
+        <header>
+            <a href="index.html"><img src="logo.png" alt="" class="logo"></a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="index.html" target="_blank">Inicio</a></li>
+                    <li><a href="retornaveis.html" target="_blank">Retornáveis</a></li>
+                    <li><a href="loja.html" target="_blank">Loja</a></li>
+                    <li><a href="sobrenos.html" target="_blank">Sobre nós</a></li>
+                </ul>
+                <header>
+
+                    <div class="login-container">
+        <div class="login-box">
+            <h2>Entrar com e-mail</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="toggle-password" onclick="togglePassword()">Mostrar</span>
+                </div>
+                <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+                <button type="submit" class="login-button">Entrar</button>
+                <p class="no-account"> <a href="#">Inscreva-se Agora</a></p>
+            </form>
+        </div>
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const togglePassword = document.querySelector('.toggle-password');
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                togglePassword.textContent = 'Ocultar';
+            } else {
+                passwordField.type = 'password';
+                togglePassword.textContent = 'Mostrar';
+            }
+        }
+    </script>
+                    

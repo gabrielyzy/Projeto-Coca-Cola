@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: fixed;
+    width: 100%;
+    min-height: 170vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: absolute;
+    max-width: 3000px;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.content .text{
+    position: relative;
+    max-width: 700px;
+    margin-right: 60px;
+}
+.content .text h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 800;
+}
+.content .text h2 span{
+    font-size: 4.0em;
+    color: #e51e2a;
+}
+.content .text h1{
+    font-size: 2.0em;
+    color: #ffffff;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #e51e2a;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.content .text a:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: -10px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #000000;
+    flex-direction: column;
+}
+
+.login-container {
+            width: 2000px;
+            padding: -20px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 200px;
+            right: 150px;
+}
+
+.login-box {
+    padding: 100px;
+    width: 100%;
+
+}
+
+.separator {
+    width: 100px;
+    background-color: #000000;
+    height: 100%;
+}
+
+.info-box {
+    padding: 40px;
+    width: 50%;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 100px;
+    color: rgb(148, 32, 32); /* Cor vermelha da Coca-Cola */
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.toggle-password {
+    cursor: pointer;
+    color: #000000;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    color: #3a3d41;
+    text-align: right;
+    text-decoration: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c00; /* Cor vermelha da Coca-Cola */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    background-color: #900; /* Vermelho mais escuro */
+}
+
+.no-account {
+    text-align: center;
+}
+
+.no-account a {
+    color: #458ad3;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+footer a {
+    color: #4b4747;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

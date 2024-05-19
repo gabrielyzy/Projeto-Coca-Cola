@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #333;
+}
+
+header {
+    background-color: #121212;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e50914;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d40813;
+}
+
+article {
+    margin-top: 20px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.duvida {
+    margin-top: 20px;
+}
+
+.duvida h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.duvida p {
+    display: none;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.toggle-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.resized-image {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 1 auto;
+    border-radius: 10;
+}
